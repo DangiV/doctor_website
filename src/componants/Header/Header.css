@@ -1,0 +1,23 @@
+.nav_main_parent{
+    margin: 0px 0px 0px 24px !important;
+}
+
+.nav_link {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255);
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+
+}
+
+.nav_link:hover {
+    color: red;
+}
+
+@media only screen and (max-width: 768px) {
+    .nav_main_parent {
+        display: flex;
+        flex-direction: column;
+    }
+}
