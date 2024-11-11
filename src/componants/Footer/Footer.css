@@ -1,0 +1,31 @@
+@media only screen and (max-width: 768px) {
+
+    .appointmenttime {
+        font-size: 13px;
+        font-weight: 500;
+        display: flex;
+    }
+    .appointmenttxt {
+        font-size: 13px;
+        font-weight: 500;
+        display: flex;
+    }
+    .heads
+    {
+        font-size: 20px;
+    }
+    .footer-txt
+    {
+        font-size: 12px;
+    }
+    .addresstxt
+    {
+        font-size: 13px;
+        font-weight: 500;
+        display: flex;
+    }
+    .appointmenttime span {
+        display: flex;
+        width: 80px !important;
+    }
+}

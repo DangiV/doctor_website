@@ -80,4 +80,40 @@
   .service-card {
     text-align: center;
   }
+  .stat
+  {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .headone {
+    font-size: 15px;
+    line-height: 40px;
+  }
+
+  .headtwo {
+    font-size: 30px;
+  }
+
+  .contactbtn {
+    font-size: 13px !important;
+    font-weight: 500 !important;
+    padding: 10px;
+  }
+  
+  .servicebtn {
+    font-weight: 500 !important;
+    font-size: 13px !important;
+    padding: 10px;
+  }
+
+  .servicebtns {
+    display: flex;
+    justify-content: space-around;
+  }
+  .service_card_sec
+  {
+    display: flex;
+    justify-content: space-around;
+  }
 }

@@ -22,28 +22,27 @@ function Home() {
         <div className="md:w-1/2 space-y-4 text-center md:text-left">
           <h1 className="text-red-700 font-bold">
             <div className="typewriter">
-              <h1>HALIFAX FAMILY DENTAL CARE.</h1>
+              <h1 className='headone'>Nek FAMILY DENTAL AND AESTHETIC CARE.</h1>
             </div>
           </h1>
           <h2 className="text-5xl font-semibold leading-tight">
             <div className="typewriter">
-              <h1>Local dentists who love <br /> to make you smile</h1>
+              <h1 className='headtwo'>Local dentists who love <br /> to make you smile</h1>
             </div>
           </h2>
           <p className="text-gray-500 mt-4">
             Discover a level of dental care like no other.
           </p>
-          <div className="space-x-4 mt-6">
+          <div className="space-x-4 servicebtns  mt-6">
             <NavLink to="/contact">
-
-              <button class="relative px-8 py-2 rounded-md bg-white isolation-auto z-10 border-2 border-lime-500
+              <button class="contactbtn relative px-8 py-2 rounded-md bg-white isolation-auto z-10 border-2 border-lime-500
         before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full 
         before:-right-full before:hover:right-0 before:rounded-full  before:bg-lime-500 before:-z-10 
          before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700">Book an Appointment
               </button>
             </NavLink>
             <NavLink to="/Services">
-              <button class="relative px-8 py-2 rounded-md bg-white isolation-auto z-10 border-2 border-lime-500
+              <button class="servicebtn relative px-8 py-2 rounded-md bg-white isolation-auto z-10 border-2 border-lime-500
         before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full 
         before:-right-full before:hover:right-0 before:rounded-full  before:bg-lime-500 before:-z-10 
          before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700"> Browse our Service
@@ -60,7 +59,7 @@ function Home() {
 
 
       {/* Services Section */}
-      <section className="flex flex-col md:flex-row justify-between items-center max-w-7xl mx-auto p-8 space-y-6 md:space-y-0">
+      <section className="flex flex-col md:flex-row justify-between items-center max-w-7xl mx-auto p-8 space-y-6 md:space-y-0 service_card_sec">
         <div className="service-card">
           <img src={img4} alt="Preventive Icon" className="mx-auto mb-4" />
           <h3 className="text-xl font-semibold">Preventive Guidance</h3>
@@ -85,9 +84,9 @@ function Home() {
       </section>
 
       {/* Welcome Section */}
-      <section className="p-11">
-        <div className="max-w-7xl mx-auto p-8 text-center">
-          <h1 className="text-red-700 text-sm font-bold uppercase mb-2">Welcome to Halifax Family Dental Care</h1>
+      <section className="p-md-11">
+        <div className="max-w-7xl mx-auto p-md-8 p-4 text-center">
+          <h1 className="text-red-700 text-sm font-bold uppercase mb-2 headone">Welcome to Halifax Family Dental Care</h1>
           <h2 className="text-3xl md:text-5xl font-semibold mb-4 hover:bg-black lg:hover:bg-transparent lg:border-0 hover:text-gray-700">
             Creating beautiful smiles for all ages
           </h2>
@@ -114,16 +113,16 @@ function Home() {
       </section>
 
       {/* Stats Section */}
-      <section className="max-w-7xl mx-auto p-8 flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0">
+      <section className="max-w-7xl mx-auto p-md-8 p-4  flex flex-row md:flex-row justify-between items-center space-y-6 md:space-y-0">
         <div className="stat">
           <h3 className="text-3xl text-red-700 font-bold">10<span className="text-xl">+</span></h3>
           <p className="text-gray-600">Years of Experience</p>
         </div>
-        <div className="stat">
+        <div className="stat mt-0">
           <h3 className="text-3xl text-red-700 font-bold">200<span className="text-xl">+</span></h3>
           <p className="text-gray-600">Satisfied Clients</p>
         </div>
-        <div className="stat">
+        <div className="stat mt-0">
           <h3 className="text-3xl text-red-700 font-bold">20<span className="text-xl">+</span></h3>
           <p className="text-gray-600">Certified Dentists</p>
         </div>
@@ -135,7 +134,7 @@ function Home() {
 
 
       {/* Flip Cards Section */}
-      <div className="flex justify-evenly p-8">
+      <div className="flex justify-md-evenly justify-center flex-col p-8">
 
         {/* <div class="container">
           <div class="row">
@@ -267,7 +266,7 @@ function Home() {
           </div>
         </div> */}
 
-        <div className="flip-card">
+        <div className="flip-card col-4">
           <div className="flip-card-inner">
             <div className="flip-card-front">
               <img src={img10} alt="Avatar" className="rounded-lg shadow-lg w-full h-auto object-cover" />

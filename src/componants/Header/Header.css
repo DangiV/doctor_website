@@ -1,4 +1,4 @@
-.nav_main_parent{
+.nav_main_parent {
     margin: 0px 0px 0px 24px !important;
 }
 
@@ -12,12 +12,56 @@
 }
 
 .nav_link:hover {
-    color: red;
+    color: #0d9488;
 }
 
 @media only screen and (max-width: 768px) {
     .nav_main_parent {
         display: flex;
         flex-direction: column;
+    }
+
+    .nav_link {
+        margin: 10px 0px !important;
+
+    }
+    
+    .closeicon:hover {
+        color: red;
+    }
+    .closeicon {
+        font-size: 20px;
+        font-weight: 400;
+        color: white;
+        width: 100%;
+        text-align: end;
+        padding: 0 10%;
+        cursor: pointer;
+    }
+
+    .responsivenav {
+        padding-top: 5%;
+        height: 100vh;
+        width: 100%;
+        text-align: center;
+        position: fixed;
+        background: #000000a1;
+        left: 0px;
+        top: 0px;
+        margin: 0px !important;
+        z-index: 1000;
+    }
+
+    .head h1
+    {
+        font-size: 15px !important;
+        line-height: 17px;
+    }
+    .head p
+    {
+        font-size: 12px !important;
+        line-height: 17px;
+        color: #b1040e;
+        font-weight: 500;
     }
 }

@@ -4,33 +4,34 @@ import img16 from '/images/Nishi16.png';
 import img17 from '/images/Nishi17.png';
 import img18 from '/images/nishi18.png';
 import { NavLink } from 'react-router-dom';
+import "./Service.css"
 
 
 function Services() {
   return (
     <>
 
-<section className=" text-black py-16 px-4">
+<section className=" text-black py-md-16 py-4 px-md-4 px-2">
       <div className="container mx-auto flex flex-col md:flex-row items-center">
         {/* Left side: Image */}
         <div className="w-full md:w-1/2 flex justify-center md:justify-start mb-8 md:mb-0">
           <img
             src={img18} // Replace with your image URL
             alt="Dental Health"
-            className="w-80 h-auto"
+            className="w-md-80 w-40 h-auto"
           />
         </div>
 
         {/* Right side: Text and Buttons */}
         <div className="w-full md:w-1/2 text-center md:text-left">
-          <h2 className="text-4xl font-bold mb-4">Let's Take Care Of Dental Health</h2>
-          <p className="text-black-200 mb-6">
+          <h2 className="text-4xl font-bold mb-md-4 mb-2 servicehead">Let's Take Care Of Dental Health</h2>
+          <p className="text-black-200 mb-6 servicetxt mx-auto">
             Some people think that brushing your teeth twice a day is enough to keep
             your teeth and mouth healthy. In fact, that’s not the case.
           </p>
 
           {/* Buttons */}
-          <div className="flex justify-center md:justify-start space-x-4">
+          <div className="flex servicebtns justify-center md:justify-start space-x-4">
           <NavLink to="/Contact"> 
             <button className="bg-teal-500 text-white px-6 py-2 rounded-full hover:bg-teal-600">
               Set an Appointment
@@ -44,10 +45,10 @@ function Services() {
       </div>
     </section>
       <div className="max-w-screen-xl mx-auto p-4">
-      <h1 className="text-3xl font-bold text-center mb-10">
+      <h1 className="text-3xl font-bold text-center mb-md-10 mb-3 servicehead">
         Quality Dental Services
       </h1>
-      <p className="text-center text-lg mb-8">
+      <p className="text-center text-lg mb-8 servicetxt mx-auto px-1">
         Our dentists provide a range of services to all ages and needs to keep
         their teeth and gums healthy for life.
       </p>
@@ -61,7 +62,7 @@ function Services() {
           />
           <div className="p-4">
             <h3 className="text-xl font-semibold text-red-600">General Dentistry</h3>
-            <p className="mt-2">
+            <p className="mt-2 ">
               Our general dentistry services include a range of preventative and
               targeted treatments essential for maintaining healthy teeth and
               gums.

@@ -1,0 +1,12 @@
+@media only screen and (max-width: 768px) {
+    .head
+    {
+        font-size: 30px;
+    }
+    .desctxt
+    {
+        font-size: 16px;
+        padding: 10px 20px;
+        line-height: 20px;
+    }
+}
